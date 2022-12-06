@@ -1,5 +1,5 @@
 {
-  "name": "@svelteness/kit-docs",
+  "name": "@todesktop/kit-docs",
   "version": "0.24.0",
   "description": "Documentation integration for SvelteKit.",
   "license": "MIT",
