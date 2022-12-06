@@ -22,7 +22,7 @@ export const kitDocsPlugin = (options: KitDocsPluginOptions = {}): Plugin[] =>
 
 function corePlugin(): Plugin {
   return {
-    name: '@svelteness/kit-docs',
+    name: '@todesktop/kit-docs',
     enforce: 'pre',
     config(config) {
       const userAlias = config.resolve?.alias;
@@ -48,14 +48,14 @@ function corePlugin(): Plugin {
       return {
         optimizeDeps: {
           include: ['shiki'],
-          exclude: ['@svelteness/kit-docs'],
+          exclude: ['@todesktop/kit-docs'],
         },
         resolve: {
           alias,
         },
         build: {
           rollupOptions: {
-            external: ['@svelteness/kit-docs/node'],
+            external: ['@todesktop/kit-docs/node'],
           },
         },
       };
