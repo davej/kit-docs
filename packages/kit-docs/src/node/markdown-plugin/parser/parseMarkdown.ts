@@ -18,7 +18,7 @@ import type {
 import { commentOutTemplateTags, uncommentTemplateTags } from './utils/htmlEscape';
 import { preventViteReplace } from './utils/preventViteReplace';
 
-const kitDocsImportPath = isLocalEnv() ? '$lib' : '@svelteness/kit-docs';
+const kitDocsImportPath = isLocalEnv() ? '$lib' : '@todesktop/kit-docs';
 
 export type ParseMarkdownToSvelteResult = {
   component: string;

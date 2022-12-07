@@ -1,6 +1,6 @@
 {
   "name": "@todesktop/kit-docs",
-  "version": "0.24.3",
+  "version": "0.24.4",
   "description": "Documentation integration for SvelteKit.",
   "license": "MIT",
   "type": "module",
